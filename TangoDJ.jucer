@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="sAO09V" name="TangoDJ" projectType="guiapp" version="0.0.1"
+              bundleIdentifier="com.bandoneo.TangoDJ" includeBinaryInAppConfig="1"
+              jucerVersion="3.1.0">
+  <MAINGROUP id="Y5ysd0" name="TangoDJ">
+    <GROUP id="{46F87E4E-3B6C-CDA7-C6B5-C019C80E2813}" name="Source">
+      <GROUP id="{99B35210-AD70-6F4A-9F58-27DAAA083741}" name="Core">
+        <GROUP id="{277E52AA-D22E-E959-C488-84E50C3E941B}" name="Audio">
+          <FILE id="eqYcka" name="MainAudioPlayer.cpp" compile="1" resource="0"
+                file="Source/Core/Audio/MainAudioPlayer.cpp"/>
+          <FILE id="aDXyql" name="MainAudioPlayer.h" compile="0" resource="0"
+                file="Source/Core/Audio/MainAudioPlayer.h"/>
+        </GROUP>
+        <GROUP id="{B806B8CA-CDFB-C10A-F8F2-FF32009B5B6D}" name="Event">
+          <FILE id="gf87tO" name="Events.cpp" compile="1" resource="0" file="Source/Core/Event/Events.cpp"/>
+          <FILE id="NwRIpU" name="Events.h" compile="0" resource="0" file="Source/Core/Event/Events.h"/>
+        </GROUP>
+        <GROUP id="{97AEAA18-3D0A-2080-2D87-1421D4E7BFE3}" name="Library">
+          <FILE id="Khr5o4" name="Song.h" compile="0" resource="0" file="Source/Core/Library/Song.h"/>
+        </GROUP>
+        <GROUP id="{B7044C1C-0BB3-58CC-94FD-C7CFA6497610}" name="Playlist">
+          <FILE id="gR4dWZ" name="Playlist.cpp" compile="1" resource="0" file="Source/Core/Playlist/Playlist.cpp"/>
+          <FILE id="NG9lXN" name="Playlist.h" compile="0" resource="0" file="Source/Core/Playlist/Playlist.h"/>
+          <FILE id="w20nMH" name="PlaylistManager.cpp" compile="1" resource="0"
+                file="Source/Core/Playlist/PlaylistManager.cpp"/>
+          <FILE id="PHn5gU" name="PlaylistManager.h" compile="0" resource="0"
+                file="Source/Core/Playlist/PlaylistManager.h"/>
+        </GROUP>
+        <GROUP id="{6222B3A9-6DC7-2DA6-6F96-F3516E1B9141}" name="Manager">
+          <FILE id="v3FTHw" name="CoreManager.cpp" compile="1" resource="0" file="Source/Core/Manager/CoreManager.cpp"/>
+          <FILE id="GTfs1b" name="CoreManager.h" compile="0" resource="0" file="Source/Core/Manager/CoreManager.h"/>
+        </GROUP>
+        <GROUP id="{45B59826-B53B-CFCA-0915-227D12A018A4}" name="Utility">
+          <GROUP id="{FCCF916E-0345-C5F9-59B5-E8B12D754BB4}" name="ImportExport">
+            <FILE id="ZTmVXa" name="M3uPlaylistImporterExporter.cpp" compile="1"
+                  resource="0" file="Source/Core/Utility/ImportExport/M3uPlaylistImporterExporter.cpp"/>
+            <FILE id="VWPcLT" name="M3uPlaylistImporterExporter.h" compile="0"
+                  resource="0" file="Source/Core/Utility/ImportExport/M3uPlaylistImporterExporter.h"/>
+            <FILE id="oBzBnP" name="PlaylistImporterExporter.cpp" compile="1" resource="0"
+                  file="Source/Core/Utility/ImportExport/PlaylistImporterExporter.cpp"/>
+            <FILE id="uPMFMk" name="PlaylistImporterExporter.h" compile="0" resource="0"
+                  file="Source/Core/Utility/ImportExport/PlaylistImporterExporter.h"/>
+            <FILE id="ZKdouH" name="XspfPlaylistImporterExporter.cpp" compile="1"
+                  resource="0" file="Source/Core/Utility/ImportExport/XspfPlaylistImporterExporter.cpp"/>
+            <FILE id="oy1J7G" name="XspfPlaylistImporterExporter.h" compile="0"
+                  resource="0" file="Source/Core/Utility/ImportExport/XspfPlaylistImporterExporter.h"/>
+          </GROUP>
+          <FILE id="sXjj5L" name="SongHelper.cpp" compile="1" resource="0" file="Source/Core/Utility/SongHelper.cpp"/>
+          <FILE id="fxA6nc" name="SongHelper.h" compile="0" resource="0" file="Source/Core/Utility/SongHelper.h"/>
+          <GROUP id="{0695689D-ED57-4373-A349-D4BAA93C023E}" name="MetaData">
+            <GROUP id="{3607D8EA-4A46-9DA4-15E8-5CB040CD549B}" name="Taglib">
+              <FILE id="azfnlC" name="TagLibAmalgam.cpp" compile="1" resource="0"
+                    file="Source/Core/Utility/MetaData/Taglib/TagLibAmalgam.cpp"/>
+              <FILE id="VOoYv1" name="TagLibAmalgam.h" compile="0" resource="0" file="Source/Core/Utility/MetaData/Taglib/TagLibAmalgam.h"/>
+            </GROUP>
+            <FILE id="YWtcAY" name="TagReader.h" compile="0" resource="0" file="Source/Core/Utility/MetaData/TagReader.h"/>
+          </GROUP>
+        </GROUP>
+      </GROUP>
+      <GROUP id="{E85F4299-9019-98CE-6E69-0C072CB0C782}" name="Gui">
+        <GROUP id="{A96453E4-9B9D-AEDF-F159-1CF1C0182B11}" name="Panels">
+          <FILE id="Qrc7zy" name="SettingsPanel.cpp" compile="1" resource="0"
+                file="Source/Gui/Panels/SettingsPanel.cpp"/>
+          <FILE id="VZKMml" name="SettingsPanel.h" compile="0" resource="0" file="Source/Gui/Panels/SettingsPanel.h"/>
+          <FILE id="aLOH9l" name="PlaylistPanel.cpp" compile="1" resource="0"
+                file="Source/Gui/Panels/PlaylistPanel.cpp"/>
+          <FILE id="EFDqZi" name="PlaylistPanel.h" compile="0" resource="0" file="Source/Gui/Panels/PlaylistPanel.h"/>
+        </GROUP>
+        <GROUP id="{7A8C7C80-46E5-5A88-D116-9282711D1552}" name="Widgets">
+          <FILE id="QI30C2" name="ActionBarComponent.cpp" compile="1" resource="0"
+                file="Source/Gui/Widgets/ActionBarComponent.cpp"/>
+          <FILE id="SLjbFb" name="ActionBarComponent.h" compile="0" resource="0"
+                file="Source/Gui/Widgets/ActionBarComponent.h"/>
+          <FILE id="eNoNFj" name="ControlsComponent.cpp" compile="1" resource="0"
+                file="Source/Gui/Widgets/ControlsComponent.cpp"/>
+          <FILE id="aJQ6aa" name="ControlsComponent.h" compile="0" resource="0"
+                file="Source/Gui/Widgets/ControlsComponent.h"/>
+          <FILE id="q3Q9yl" name="PlayInfoComponent.cpp" compile="1" resource="0"
+                file="Source/Gui/Widgets/PlayInfoComponent.cpp"/>
+          <FILE id="xiZe28" name="PlayInfoComponent.h" compile="0" resource="0"
+                file="Source/Gui/Widgets/PlayInfoComponent.h"/>
+          <FILE id="ikqX1G" name="PlayListComponent.cpp" compile="1" resource="0"
+                file="Source/Gui/Widgets/PlayListComponent.cpp"/>
+          <FILE id="uNUMer" name="PlayListComponent.h" compile="0" resource="0"
+                file="Source/Gui/Widgets/PlayListComponent.h"/>
+        </GROUP>
+        <GROUP id="{6C2CC7D6-2FB2-4C97-BCEB-6A335F0E0DBA}" name="LookAndFeel">
+          <FILE id="AWTDjh" name="LookAndFeel.cpp" compile="1" resource="0" file="Source/Gui/LookAndFeel/LookAndFeel.cpp"/>
+          <FILE id="jTJobG" name="LookAndFeel.h" compile="0" resource="0" file="Source/Gui/LookAndFeel/LookAndFeel.h"/>
+        </GROUP>
+        <FILE id="X18TWo" name="MainComponent.cpp" compile="1" resource="0"
+              file="Source/Gui/MainComponent.cpp"/>
+        <FILE id="cwSMbF" name="MainComponent.h" compile="0" resource="0" file="Source/Gui/MainComponent.h"/>
+        <FILE id="TLxQHl" name="MainWindow.cpp" compile="1" resource="0" file="Source/Gui/MainWindow.cpp"/>
+        <FILE id="o54E5b" name="MainWindow.h" compile="0" resource="0" file="Source/Gui/MainWindow.h"/>
+      </GROUP>
+      <GROUP id="{8F969EDC-1C61-136D-ED9A-7F8CF524CA38}" name="Common">
+        <FILE id="QK8ezh" name="Headers.h" compile="0" resource="0" file="Source/Common/Headers.h"/>
+      </GROUP>
+      <GROUP id="{01AA92A8-F2CD-0C76-FC42-3117510FF315}" name="BinaryData">
+        <FILE id="ePEDb7" name="default_album.jpg" compile="0" resource="1"
+              file="Source/BinaryData/default_album.jpg"/>
+        <FILE id="tmL2Bs" name="icon.png" compile="0" resource="1" file="Source/BinaryData/icon.png"/>
+      </GROUP>
+      <FILE id="LSaxsW" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <VS2010 targetFolder="Builds/VisualStudio2010" smallIcon="tmL2Bs" bigIcon="tmL2Bs">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="1" optimisation="1" targetName="TangoDJ"/>
+        <CONFIGURATION name="Release" winWarningLevel="4" generateManifest="1" winArchitecture="32-bit"
+                       isDebug="0" optimisation="2" targetName="TangoDJ"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../lib/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../lib/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../lib/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../lib/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../lib/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../lib/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../lib/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../lib/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../lib/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../lib/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../lib/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2010>
+    <XCODE_MAC targetFolder="Builds/MacOSX" smallIcon="tmL2Bs" bigIcon="tmL2Bs">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" osxSDK="default" osxCompatibility="default" osxArchitecture="Native"
+                       isDebug="1" optimisation="1" targetName="TangoDJ"/>
+        <CONFIGURATION name="Release" osxSDK="default" osxCompatibility="default" osxArchitecture="default"
+                       isDebug="0" optimisation="2" targetName="TangoDJ"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_gui_extra" path="../lib/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../lib/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../lib/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../lib/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../lib/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../lib/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../lib/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../lib/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../lib/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../lib/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../lib/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULES id="juce_audio_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_audio_devices" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_audio_formats" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_audio_processors" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_audio_utils" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_core" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_data_structures" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_events" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_graphics" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_gui_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_gui_extra" showAllCode="1" useLocalCopy="0"/>
+  </MODULES>
+  <JUCEOPTIONS DROWAUDIO_USE_CURL="disabled" DROWAUDIO_USE_FFTREAL="enabled"
+               DROWAUDIO_USE_SOUNDTOUCH="enabled" JUCE_QUICKTIME="enabled" JUCE_USE_FLAC="enabled"
+               JUCE_USE_OGGVORBIS="enabled" JUCE_USE_MP3AUDIOFORMAT="enabled"
+               JUCE_USE_LAME_AUDIO_FORMAT="enabled" JUCE_USE_WINDOWS_MEDIA_FORMAT="enabled"/>
+</JUCERPROJECT>

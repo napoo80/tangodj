@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{3F6705B9-9A7B-6A0D-573F-7C145B1546AA}") = "TangoDJ", "TangoDJ.vcxproj", "{3AC1AD74-9B47-CAE1-A3EA-AD85FFDB803D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3AC1AD74-9B47-CAE1-A3EA-AD85FFDB803D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3AC1AD74-9B47-CAE1-A3EA-AD85FFDB803D}.Debug|Win32.Build.0 = Debug|Win32
+		{3AC1AD74-9B47-CAE1-A3EA-AD85FFDB803D}.Release|Win32.ActiveCfg = Release|Win32
+		{3AC1AD74-9B47-CAE1-A3EA-AD85FFDB803D}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
